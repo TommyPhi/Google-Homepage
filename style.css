@@ -1,0 +1,248 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Body CSS */
+  body {
+    background-color: #202124;
+  }
+  
+  .main-logo {
+    font-size: 55pt;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  .logo-image {
+    width: 400px;
+    height: auto;
+    min-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .main-container {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #google-search {
+    color: white;
+    font-size: 11pt;
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
+    background-size: 4%;
+    background-repeat: no-repeat;
+    background-position: left 2% center;
+    background-color: #202124;
+    padding-left: 45px;
+    border: 0.5px darkgray solid;
+    border-radius: 20px;
+    width: 40em;
+    height: 3em;
+  }
+  
+  #google-search:hover {
+    background-color: #303134;
+    border: 0.5px #202124 solid;
+  }
+  
+  #google-img-search {
+    color: white;
+    font-size: 11pt;
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
+    background-size: 4%;
+    background-repeat: no-repeat;
+    background-position: left 2% center;
+    background-color: #202124;
+    padding-left: 45px;
+    border: 0.5px darkgray solid;
+    border-radius: 20px;
+    width: 40em;
+    height: 3em;
+  }
+  
+  #google-img-search:hover {
+    background-color: #303134;
+    border: 0.5px #202124 solid;
+  }
+  
+  .button {
+    color: white;
+    background-color: #303134;
+    padding: 10px 14px;
+    margin: 10px 5px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    border: 0.5px darkgray solid;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* End of Body CSS */
+  
+  /* Navbar CSS */
+  .navbar {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: #bdc1c5;
+    padding: 16px 14px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  /* End of Navbar CSS */
+  
+  /* Footer CSS */
+  .footer-class {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 47.5px;
+    left: 0;
+    bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #181414;
+    margin-top: 100px;
+  }
+  
+  .footer-item {
+    align-self: center;
+    float: left;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    padding: 16px 14px;
+    color: #bdc1c5;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  /* End of Footer CSS */
+  
+  /* Advanced Search CSS */
+  
+  .advancedTitle {
+    font-family: 'Poppins', sans-serif;
+    color: darkred;
+    padding-left: 50px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 0.5px darkgray solid;
+  }
+  
+  .advSearchContainer {
+    flex-direction: column;
+    width: 85%;
+    align-items: left;
+    margin-left: 50px;
+    padding-left: 50px;
+  }
+  
+  .advSearchQuery {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .advSearchDesc {
+    font-size: 11px;
+  }
+  
+  .websiteSearch {
+    border-top: 0.5px darkgray solid;
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+  
+  .findPageHeading {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-bottom: 15px;
+  }
+  
+  .advSearchLabel {
+    display: inline;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 20%;
+    min-width: 20%;
+    height: auto;
+  }
+  
+  .numbersTo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .advSearchBox {
+    color: white;
+    background-color: #202124;
+    border: 0.5px darkgray solid;
+    width: 35%;
+  }
+  
+  .numbersFromTo {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .advSearchButton {
+    display: flex;
+    justify-content: right;
+  }
+  
+  .advButton {
+    background-color: cornflowerblue;
+  }
+  
+  .advButton:hover {
+    background-color: #3474ea;
+  }
+  /* End of Advanced Search CSS */
+  
+  /* Misc CSS */
+  .nav-float-right {
+    float: right;
+  }
+  
+  .float-right {
+    margin-left: auto;
+  }
+  /* End of Misc CSS */

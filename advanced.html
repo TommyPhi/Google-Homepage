@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+  
+</head>
+
+<!-- Beginning of Header/Navigation Content -->
+
+<header>
+  <nav class="navbar">
+    <ul class="navbar">
+      <li class="nav-item"><a class="nav-link" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US&pli=1">Store</a></li>
+      <li class="nav-item nav-float-right"><a class="nav-link" href="https://mail.google.com/mail/u/0/">Gmail</a></li>
+      <li class="nav-item nav-float-right"><a class="nav-link" href="images.html">Images</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- End of Header/Navigation Content -->
+
+<!-- Beginning of Main Body Content -->
+  
+<body>
+  <h2 class="advancedTitle">Advanced</h2>
+  <section class="advSearchContainer">
+    <section>
+      <h3 class="findPageHeading">Find pages with...</h3>
+    </section>
+    <form>
+      <section>
+        <section class="advSearchQuery">
+          <label class="advSearchLabel" for="allWords">all these words:</label>
+          <input class="advSearchBox" type="text" id="allWords">
+          <label class="advSearchLabel advSearchDesc">Type the important words: tricolor rat terrier</label>
+        </section>
+        <section class="advSearchQuery">
+          <label class="advSearchLabel" for="exactWords">this exact word or phrase:</label>
+          <input class="advSearchBox" type="text" id="exactWords">
+          <label class="advSearchLabel advSearchDesc">Put exact words in quotes: "rat terrier"</label>
+        </section>
+        <section class="advSearchQuery">
+          <label class="advSearchLabel" for="anyWords">any of these words:</label>
+          <input class="advSearchBox" type="text" id="anyWords">
+          <label class="advSearchLabel advSearchDesc">Type OR between all the words you want:  miniature OR standard</label>
+        </section>
+        <section class="advSearchQuery">
+          <label class="advSearchLabel" for="noneWords">none of these words:</label>
+          <input class="advSearchBox" type="text" id="noneWords">
+          <label class="advSearchLabel advSearchDesc">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</label>
+        </section>
+        <section class="advSearchQuery">
+          <label class="advSearchLabel" for="numbersFrom">numbers ranging from:</label>
+          <section class="numbersFromTo">
+            <input class="advSearchBox" type="number" id="numbersFrom">
+            <label class="numbersTo" for="numbersTo">to</label>
+            <input class="advSearchBox" type="number" id="numbersTo">
+          </section>
+          <label class="advSearchLabel advSearchDesc">Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011
+</label>
+        </section>
+        <section class="advSearchQuery websiteSearch">
+          <label class="advSearchLabel" for="website">site or domain</label>
+          <input class="advSearchBox" type="text" id="website">
+          <label class="advSearchLabel advSearchDesc">site or domain:
+Search one site (like  wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</label>
+        </section>
+      </section>
+      <section class="advSearchButton">
+        <button class="button advButton" onclick="advSearch()">Advanced Search</button>
+      </section>
+    </form>
+  </section>
+  <script src=script.js></script>
+</body>
+
+<!-- End of Main Body Content -->
+I 
+<!-- Beginning of Footer HTML -->
+  
+<footer>
+  <ul class="footer-class">
+    <li class="footer-item"><a class="footer-link" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+    <li class="footer-item"><a class="footer-link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a></li>
+    <li class="footer-item"><a class="footer-link" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+    <li class="footer-item float-right"><a class="footer-link" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a></li>
+    <li class="footer-item"><a class="footer-link" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a></li>
+    <li class="footer-item"><a class="footer-link" href="advanced.html">Advanced</a></li>
+  </ul>
+</footer>
+
+<!-- End of Footer HTML -->
+  
+</html>
+
+<!-- url for google search https://www.google.com/search?q= -->
